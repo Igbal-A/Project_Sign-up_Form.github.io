@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Norse";
+    src: url(/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.block-first {
+    width: 40%;
+    height: 100vh;
+    border: 1px solid black;
+
+    background: no-repeat, url(halie-west-25xggax4bSA-unsplash.jpg) center / 100% ;
+
+    color: white; 
+}
+
+.block-pic-and-titles__block-logo-and-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: rgba( 0, 0, 0, 0.5 );
+
+    margin-top: 21vh;
+}
+
+.block-logo {
+    height: 100%;
+    width: 100px;
+    background: no-repeat url(odin-lined.png) center / 70%;
+}
+
+.block-title {
+    font-size: 70px;
+    padding-top: 15px;
+    font-family: "Norse";
+}
+
+
+
+
+
+
+
+
+
+
+
+.block-second {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(241, 241, 241);
+}
+
+.block-second>.container-form {
+    background-color: none;
+}
+
+.block-second__first-title {
+    padding: 125px 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+
+    width: 40vw;
+}
+
+.last-title {
+    margin: 30px 0 20px;
+}
+
+.block-form {
+    padding: 0;
+    width: 100%;
+}
+
+.container-form {
+    padding-left: 50px;
+}
+
+.block-inputs {
+    width: 100%;
+    background-color: white;
+
+    box-shadow: 1px 5px 5px rgba(193, 193, 193, 0.5);
+}
+
+.container-inputs {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sup-title-form {
+    padding: 30px 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.block-label-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    /* margin: 30px 30px 0 0; */
+}
+
+label {
+    /* margin: 10px 0 10px; */
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+input {
+    margin-bottom: 25px;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    /* outline: none; */
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 1px 5px 5px rgba(193, 193, 193, 0.5);
+    outline: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.block-buttons {
+    margin-top: 30px;
+}
+
+button {
+    width: 225px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+
+}
+
+.log-in-title {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
